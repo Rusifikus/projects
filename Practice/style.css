@@ -1,0 +1,102 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+
+  font-size: 20px;
+  color: white;
+}
+
+/* меню */    
+
+.container_1 {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1
+}
+
+.nav {
+    width: 100%;
+    height: 40px;
+    position:fixed;
+}
+
+.SOS {
+    float:left;
+    margin-left: 200px;
+}
+
+.menu {
+    margin-right: 120px;
+}
+
+.menu_button {
+    color:brown;
+    font-size: 30px;
+    text-decoration: none;
+    float: right;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+a:hover {
+    border-bottom: 2px solid;
+    color: darkorange;
+    transition: 0.5s;
+    padding-top: 3px;
+}
+
+/* 1 секция */
+
+.container_2 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(Screenshots/Content_1.jpg);
+    background-size: cover;
+}
+
+.text {
+    width: 400px;
+    font-size: 50px;
+    padding-top: 300px;
+    margin-left: 200px;
+}
+
+.contact {
+    font-size: 30px;
+    color: black;
+    background-color:yellow;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+/* 2 секция */
+
+.information {
+    background-image: url(Screenshots/section_information.jpg);
+    width: 100%;
+    height: 100vh;
+}
+
+.information_question {
+    display: inline-block;
+    font-size: 40px;
+    margin-top: 150px;
+    margin-left: 200px;
+    color: orange;
+    font-weight: bold;
+}
+
+.information_menu {
+    display: inline-block;
+    text-decoration: none;
+    
+}
