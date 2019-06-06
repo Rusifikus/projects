@@ -39,10 +39,13 @@ body {
 .menu_button {
     color:brown;
     font-size: 30px;
-    text-decoration: none;
     float: right;
     margin-top: 30px;
     margin-right: 30px;
+}
+a {
+    text-decoration: none;
+    color: white;
 }
 
 a:hover {
@@ -97,6 +100,43 @@ a:hover {
 
 .information_menu {
     display: inline-block;
-    text-decoration: none;
-    
+    font-size: 40px;
+    font-weight: bold;
+    float: right;
+    margin-top: 150px;
+    margin-right: 200px;
+}
+
+.information_button {
+    margin-left: 40px;
+}
+
+.information_block {
+    width: 100%;
+    height: 500px;
+    font-size: 20px;
+    margin-top: 180px;
+    margin-left: 40px;
+
+}
+
+.information_block_design,
+.information_block_production,
+.information_block_branding {
+    float: left;
+    width: auto;
+    padding-left: 50px;
+}
+
+.information_block h1 {
+    color: crimson;
+    border-bottom: 2px solid;
+    border-bottom-color: chartreuse;
+}
+
+.information_block_design:hover,
+.information_block_production:hover,
+.information_block_branding:hover {
+    font-size: 30px;
+    transition: 0.5s;
 }
