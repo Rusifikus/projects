@@ -1,0 +1,175 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+/*    Header    
+===================*/
+
+header {
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 1; 
+}
+
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.header_logo {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.nav_link {
+    text-decoration: none;
+    padding-left: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: .3s;
+    font-weight: 700;
+}
+
+.nav_link:first-child {
+    padding-left: 0px;
+}
+
+.img_nav_link {
+    width: 16px;
+    height: 16px;
+    opacity: 1;
+}
+
+.img_nav_link:hover {
+    opacity: .5;
+}
+
+.nav_link:hover {
+    color: #fce38a;
+    text-decoration: underline;
+    transition: .3s ;
+}
+
+
+/*     Intro      
+===================*/
+
+
+
+.intro {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(/image/bg-header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.intro_inner {
+    padding-top: 130px;
+    margin: 0 auto;
+    max-width: 755px;
+    text-align: center;
+}
+
+.intro_title {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.intro_subtitle {
+    margin: 0 auto;
+    padding: 0;
+    font-size: 150px;
+    line-height: .9
+}
+
+
+
+/*      button    
+===================*/
+
+
+
+.button {
+    display: inline-block;
+    vertical-align: top;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.intro_button {
+    color: #fff;
+    border: 3px solid #fff;
+    padding: 12px 30px;
+    margin-top: 125px;
+    font-weight: 700;
+    transition: .5s;
+}
+
+.intro_button:hover {
+    background-color: orange;
+    border-color: orangered;
+    box-shadow: 0 0 10px black;
+    transition: .5s;
+}
+
+
+
+/*      intro footer   
+===================*/
+
+
+
+.intro_footer{
+    padding-top: 100px;
+    display: flex;
+    justify-content:space-around;
+    font-weight: 700;
+}
+
+.intro_nav_footer {
+    width: 280px;
+    text-align: center;
+    border-top: 3px solid #fff;
+    opacity: .6;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    transition: .3s;
+}
+
+.number {
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+
+.intro_nav_footer:hover {
+    opacity: 1;
+    transition: .3s;
+}
