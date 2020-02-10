@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MoGo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./image/favicon.png" type="image/png">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="wrap">
+                <nav>
+                    <div class="nav_logo">MoGo</div>
+                    <ol class="nav_list">
+                        <li class="nav_item"><a href="#">about</a></li>
+                        <li class="nav_item"><a href="#">sercive</a></li>
+                        <li class="nav_item"><a href="#">work</a></li>
+                        <li class="nav_item"><a href="#">blog</a></li>
+                        <li class="nav_item"><a href="#">contact</a></li>
+                        <li><a href="#"><img class="nav_img_one" src="./image/Navigation/shopping.svg" alt=""></a></li>
+                        <li><a href="#"><img class="nav_img_two" src="./image/Navigation/search.svg" alt=""></a></li> 
+                    </ol>
+                       <div class="nav_list_menu">
+                           <a href="#">about</a>
+                           <a href="#">sercive</a>
+                           <a href="#">work</a>
+                           <a href="#">blog</a>
+                           <a href="#">contact</a>
+                       </div>
+                       
+                    <div class="burger_menu"><img src="./image/menu.svg" alt=""></div>
+                </nav>
+                <div class="header_intro">
+                    <h1>Creative Template</h1>
+                    <h2>Welcome<br>to MoGo</h2>
+                    <a href="#">learn more</a>
+                </div>    
+                    <div class="header_btn">
+                        <ol>
+                            <li class="header_btn_item"><span>01</span>intro</li>
+                            <li class="header_btn_item"><span>02</span>work</li>
+                            <li class="header_btn_item"><span>03</span>about</li>
+                            <li class="header_btn_item"><span>04</span>contacts</li>
+                        </ol>
+                    </div>
+            </div>
+        </div>
+    </header>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+          $(".burger_menu").click(function(){
+            $(".nav_list_menu").fadeToggle();
+            });
+           });
+</script>
+</body>
+</html>

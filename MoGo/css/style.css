@@ -1,0 +1,266 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.wrap {
+    height: 100%;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+
+/*       Header    
+===================*/
+
+
+.header {
+    width: 100%;
+    height: 1000px;
+    background-image: url(../image/bg/bg-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+nav {
+    padding: 20px 15px 0 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav_logo {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.nav_list {
+    list-style-type:none;
+    display: flex;
+    align-items: center;
+}
+
+.nav_item a {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 60px;
+    color: #fff;
+    transition: .3s;
+}
+
+.header ol {
+    padding-left: 0;
+}
+
+.nav_item a:hover {
+    color: #fce38a;
+    text-decoration: underline;
+}
+
+.nav_img_one {
+    padding-left: 40px;
+    width: 60px;
+}
+
+.nav_img_two {
+    padding-left: 40px;
+    width: 60px;
+}
+
+.burger_menu {
+    width: 25px;
+    display: none;
+}
+
+.nav_list_menu {
+    display: none;
+    top: 23px;
+    right: 50px;
+    position: absolute;
+    text-transform: uppercase;
+}
+
+.nav_list_menu a {
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+}
+
+/*     Header intro   
+==========================*/
+
+
+.header_intro {
+    margin-top: 130px;
+    padding: 0;
+}
+
+.header_intro h1 {
+    margin: 0;
+    font-size: 72px;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.header_intro h2 {
+    margin: 70px 0 0 0;
+    text-align: center;
+    font-size: 150px;
+    font-weight: 700;
+    line-height: 150px;
+    text-transform: uppercase;
+}
+
+.header_intro a {
+    width: 165px;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 90px;
+    padding: 12px 30px;
+    border: 3px solid #fff;
+    transition: .3s;
+}
+
+.header_intro a:hover {
+    color: #fce38a;
+    border-color: #fce38a;
+}
+
+.header_btn {
+    margin: 0px 15px 0px 15px;
+}
+
+.header_btn ol{
+    display: flex;
+    justify-content: space-around;
+}
+
+.header_btn_item {
+    margin-top: 95px;
+    padding-top: 30px;
+    width: 20%;
+    list-style-type: none;
+    font-size: 14px;
+    font-weight: 400;
+    border-top: 3px solid #fff;
+    opacity: .7;
+    transition: .3s;
+}
+
+.header_btn_item span {
+    font-size: 18px;
+    font-weight: 700;
+    margin-right: 8px;
+}
+
+
+.header_btn_item:hover {
+    opacity: 1;
+    border-color: orangered;
+}
+
+/*        media        
+==========================*/
+
+
+/*          900
+==========================*/
+
+
+@media (max-width:900px) {
+    
+    .header {
+        max-height: 950px;
+    }
+    
+    nav {
+        justify-content: space-between;
+    }
+    
+    .nav_list {
+        display: none;
+    }
+    
+    .burger_menu {
+        display: block
+    }
+    
+    .header_intro h1 {
+        font-size: 50px;
+    }
+    
+    .header_intro h2 {
+        font-size: 90px;;
+    }
+}
+
+
+
+/*           700
+==========================*/
+
+
+@media (max-width:700px) {
+    
+    .header {
+        max-height: 760px;
+    }
+    
+    .header_intro h1 {
+        font-size: 30px;
+    }
+    
+    .header_intro h2 {
+        font-size: 60px;
+        line-height: 80px;
+    }
+        
+    .header_btn_item {
+        font-size: 7px;
+        width: 15%;
+        padding-top: 15px;
+    }
+    
+    .header_btn_item span {
+        font-size: 18px;
+    }
+}
+
+
+
+/*           400
+==========================*/
+
+
+@media (max-width:400px) {
+    
+    .header {
+        max-height: 720px;
+    }
+    
+    .header_intro h2 {
+        font-size: 40px;
+        line-height: 60px;
+}
+
