@@ -4,66 +4,60 @@
     <meta charset="UTF-8">
     <title>MoGo</title>
     <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./image/favicon.png" type="image/png">
 </head>
 <body>
-         <header class="header">
-          <div class="container">
-              <div class="header_inner">
-                  <div class="header_logo">MoGo</div>
-                  <nav class="nav">
-                      <a href="#" class="nav_link">about</a>
-                      <a href="#" class="nav_link">service</a>
-                      <a href="#" class="nav_link">work</a>
-                      <a href="#" class="nav_link">blog</a>
-                      <a href="#" class="nav_link">contact</a>
-
-                      <a href="#" class="nav_link"><img src="./image/Navigation/shopping.png" alt="" class="img_nav_link"></a>
-                      <a href="" class="nav_link"><img src="./image/Navigation/search.png" alt="" class="img_nav_link"></a>
-
-                  </nav>
-              </div>
-          </div>
-      </header>
-      <div class="intro">
-         <div class="container">
-             <div class="intro_inner">
-                 <h1 class="intro_title">
-                     Creative Template
-                 </h1>
-                 <h2 class="intro_subtitle">
-                     Welcome to MoGo
-                 </h2>
-                 <a href="#" class="button intro_button">Learn more</a>
-             </div>
-             
- 
-                 <div class="intro_footer">
-                     <a href="#" class="button intro_nav_footer"><span class="number">01</span>intro</a>
-                     <a href="#" class="button intro_nav_footer"><span class="number">02</span>work</a>
-                     <a href="#" class="button intro_nav_footer"><span class="number">03</span>about</a>
-                     <a href="#" class="button intro_nav_footer"><span class="number">04</span>contacts</a>
-                </div>
-         </div>
-      </div>
-      
-      
-      <div class="about">
-         <div class="container">
-             <h1 class="about_title">What we do</h1>
-             <h2 class="about_subtitle">Story about us</h2>
-             <span class="about_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim<br> veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </span>
-          
-          <div class="image">
-              <img src="./image/About/about_left.png" alt="" class="about_image image_left">
-              <img src="./image/About/about_center.png" alt="" class="about_image image_center">
-              <img src="./image/About/about_right.png" alt="" class="about_image image_right">
-          </div>
-          
-          
-          </div>
-      </div> 
-      
+    <header>
+        <div class="header">
+            <div class="wrap">
+                <nav>
+                    <div class="nav_logo">MoGo</div>
+                    <ol class="nav_list">
+                        <li class="nav_item"><a href="#">about</a></li>
+                        <li class="nav_item"><a href="#">sercive</a></li>
+                        <li class="nav_item"><a href="#">work</a></li>
+                        <li class="nav_item"><a href="#">blog</a></li>
+                        <li class="nav_item"><a href="#">contact</a></li>
+                        <li><a href="#"><img class="nav_img_one" src="./image/Navigation/shopping.svg" alt=""></a></li>
+                        <li><a href="#"><img class="nav_img_two" src="./image/Navigation/search.svg" alt=""></a></li> 
+                    </ol>
+                       <div class="nav_list_menu">
+                           <a href="#">about</a>
+                           <a href="#">sercive</a>
+                           <a href="#">work</a>
+                           <a href="#">blog</a>
+                           <a href="#">contact</a>
+                       </div>
+                       
+                    <div class="burger_menu"><img src="./image/menu.svg" alt=""></div>
+                </nav>
+                <div class="header_intro">
+                    <h1>Creative Template</h1>
+                    <h2>Welcome<br>to MoGo</h2>
+                    <a href="#">learn more</a>
+                </div>    
+                    <div class="header_btn">
+                        <ol>
+                            <li class="header_btn_item"><span>01</span>intro</li>
+                            <li class="header_btn_item"><span>02</span>work</li>
+                            <li class="header_btn_item"><span>03</span>about</li>
+                            <li class="header_btn_item"><span>04</span>contacts</li>
+                        </ol>
+                    </div>
+            </div>
+        </div>
+    </header>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+          $(".burger_menu").click(function(){
+            $(".nav_list_menu").fadeToggle();
+            });
+           });
+</script>
 </body>
 </html>
