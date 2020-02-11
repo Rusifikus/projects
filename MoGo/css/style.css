@@ -318,6 +318,7 @@ nav {
 }
 
 .service_about_list_item {
+    width: 100%;
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
@@ -377,11 +378,17 @@ nav {
 @media (max-width:1150px) {
     
     .service_about_list {
-        grid-template-columns: 45% 45%;
-}
+        grid-template-columns: 42% 42%;
+    }   
     
+    .service_about_list_item:nth-child(4) {
+        border-bottom: 1px solid #e5e5e5;
+    }
+ 
+    .service_about_list_item:nth-child(3) {
+        margin-top: 45px;
+    }
 }
-
     
     
 
@@ -425,8 +432,19 @@ nav {
 
 @media (max-width:770px) {
     .service_about_list {
-    grid-template-columns: 88%;
+    grid-template-columns: 82%;
 }
+    .statistics_text p {
+        margin: 20px 50px;
+    }
+    
+    .service_about_list_item:nth-child(2) {
+        margin-top: 45px;
+    }
+    
+    .service_about_list_item:nth-child(5) {
+        border-bottom: 1px solid #e5e5e5;
+    }
 }
 
 
@@ -483,6 +501,10 @@ nav {
     .header_btn_item span {
         font-size: 16px;
     }
+    
+    .statistics_text p {
+        margin: 10px 0;
+    }
 }
 
 
@@ -521,6 +543,7 @@ nav {
     }
     
     .service_about_list {
+        width: 100%;
         grid-template-columns: 70%;
     }
     
