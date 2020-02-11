@@ -479,7 +479,7 @@ nav {
 
     .statistics p {
         font-size: 12px;
-        margin: 50px 0;
+        margin: 30px 0;
     }
 
     .statistics p span {
@@ -503,7 +503,7 @@ nav {
     }
     
     .statistics_text p {
-        margin: 10px 0;
+        margin: 10px 10px;
     }
 }
 
@@ -540,6 +540,10 @@ nav {
     
     .header_btn_item span {
         font-size: 14px;
+    }
+    
+    .statistics_text p {
+        margin: 10px 0;
     }
     
     .service_about_list {
