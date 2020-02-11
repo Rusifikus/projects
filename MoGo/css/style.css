@@ -123,7 +123,7 @@ nav {
 
 .header_intro h2 {
     width: 100%;
-    margin: 70px 0 0 0;
+    margin: 70px 0 0;
     text-align: center;
     font-size: 150px;
     font-weight: 700;
@@ -132,14 +132,11 @@ nav {
 }
 
 .header_intro a {
-    width: 100%;
-    max-width: 165px;
     font-size: 14px;
     font-weight: 700;
     text-decoration: none;
     color: #fff;
-    margin: 0 auto;
-    margin-top: 90px;
+    margin: 90px auto 0;
     padding: 12px 30px;
     border: 3px solid #fff;
     transition: .3s;
