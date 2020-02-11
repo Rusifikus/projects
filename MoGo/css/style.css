@@ -105,6 +105,10 @@ nav {
 
 
 .header_intro {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    flex-wrap: wrap;
     margin-top: 130px;
     padding: 0;
 }
@@ -118,6 +122,7 @@ nav {
 }
 
 .header_intro h2 {
+    width: 100%;
     margin: 70px 0 0 0;
     text-align: center;
     font-size: 150px;
@@ -127,10 +132,8 @@ nav {
 }
 
 .header_intro a {
-    width: 165px;
-    display: flex;
-    justify-content: center;
-    text-transform: uppercase;
+    width: 100%;
+    max-width: 165px;
     font-size: 14px;
     font-weight: 700;
     text-decoration: none;
