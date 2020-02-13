@@ -578,9 +578,59 @@ nav {
 
 
 
+/*       work image       
+==========================*/
+
+.work_image_container {
+    display: flex;
+}
+
+.work_image_container img {
+    display: flex;
+    width: 100%; 
+    transition: .3s;
+}
+
+.work_image_container img:hover {
+    transform: scale(1.5);
+}
+
+.work_image_center img:hover {
+    transform: scale(1.2);
+}
+
+.work_image_left {
+    display: flex;
+    width: 50%;
+}
+
+.work_image_left_25 {
+    width: 50%;
+}
+
+.work_image_center {
+    width: 25%;
+}
+
+.work_image_right {
+    width: 25%;
+}
 
 
-/*        MEDIA        
+
+
+/*         map       
+==========================*/
+
+.map_container img{
+    width: 100%;
+}
+
+
+
+
+
+/*         MEDIA        
 ==========================*/
 
 
