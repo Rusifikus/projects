@@ -55,6 +55,15 @@ nav {
     align-items: center;
 }
 
+.fa {
+    color: #fff;
+    padding-left: 40px;
+}
+
+.fa-bars {
+    padding: 0;
+}
+
 .nav_item a {
     text-decoration: none;
     text-transform: uppercase;
@@ -70,6 +79,11 @@ nav {
 .nav_item a:hover {
     color: #fce38a;
     text-decoration: underline;
+    cursor: pointer;
+}
+
+.fa:hover {
+    color: #fce38a;
     cursor: pointer;
 }
 
