@@ -490,17 +490,78 @@ nav {
 }
 
 
+/*       what we do     
+==========================*/
+
+.whatwedo_content {
+    display: flex;
+    margin: 0 15px;
+}
+
+.whatwedo_img,
+.whatwedo_accordion {
+    width: 49%;
+}
+
+.whatwedo_accordion_item {
+    margin: 0 0 15px 20px;
+}
+
+.whatwedo_img img {
+    width: 100%;
+}
+
+.accordion_title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-transform: uppercase;
+    border: 1px solid #e5e5e5;
+}
+
+.accordion_title img {
+    padding: 15px;
+}
+
+
+.accordion_title p {
+    color: #333;
+    text-align: center;
+}
+
+.accordion_text p {
+    font-size: 15px;
+    color: #afafaf;
+    padding: 15px;
+    border: 1px solid #e5e5e5;
+    margin: 0;
+}
+
+
+/* SLIDER ON*/
+
+.accordion_none {
+    display: none;
+}
+
+
+
+/*      comments
+======================*/
+
+
+
 /*          team      
 ==========================*/
 
-.team_title {
+.title {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     color: #333;
 }
 
-.team_title h1 {
+.title h1 {
     width: 100%;
     font-size: 24px;
     font-family: 'Kaushan Script', cursive;
@@ -509,7 +570,7 @@ nav {
     margin: 100px 15px 0;
 }
 
-.team_title h2 {
+.title h2 {
     width: 100%;
     font-size: 30px;
     font-weight: 700;
@@ -518,7 +579,7 @@ nav {
     margin: 23px 0 0;
 }
 
-.team_title p {
+.title p {
     width: 75%;
     font-size: 15px;
     font-weight: 400;
