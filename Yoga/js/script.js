@@ -86,21 +86,24 @@ window.addEventListener('DOMContentLoaded', function() {
 
     // modal
 
-    let more = document.querySelector('.more'),
-        overlay = document.querySelector('.overlay'),
-        close = document.querySelector('.popup-close');
-
-
-        more.addEventListener('click', function () {
-            overlay.style.display = 'block';
-            this.classList.add('more-splah');
-            document.body.style.overflow = 'hidden';
-        })
+    let overlay = document.querySelector('.overlay'),
+        close = document.querySelector('.popup-close'),
+        descriptionBtn = document.querySelectorAll('.description-btn');
+    function showModal() {
+        overlay.style.display = 'block';
+        this.classList.add('more-splash');
+        document.body.style.overflow = 'hidden';
+    }
     
-        close.addEventListener('click', function () {
-            overlay.style.display = 'none';
-            more.classList.remove('more-splah');
-            document.body.style.overflow = ('');
-        })
+    function hideModal() {
+        overlay.style.display = 'none';
+        descriptionBtn.forEach(item => item.classList.remove('more-splash'));
+        document.body.style.overflow = '';
+    }
+    
+    descriptionBtn.forEach(item => item.addEventListener('click', showModal));
+    close.addEventListener('click', hideModal);
+
+
 
 });
