@@ -37,7 +37,7 @@ window.addEventListener('DOMContentLoaded', function() {
 
     // Timer
 
-    let deadline = '2020-03-17';
+    let deadline = '2020-03-22';
 
     function getTimeRemaining(endtime) {
         let t = Date.parse(endtime) - Date.parse(new Date()),
@@ -103,7 +103,5 @@ window.addEventListener('DOMContentLoaded', function() {
     
     descriptionBtn.forEach(item => item.addEventListener('click', showModal));
     close.addEventListener('click', hideModal);
-
-
 
 });
