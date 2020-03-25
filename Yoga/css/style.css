@@ -22,6 +22,7 @@
     opacity: 1;
   }
 }
+
 .more-splash {
   -webkit-animation-name: splash;
           animation-name: splash;
