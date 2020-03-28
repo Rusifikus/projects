@@ -44,9 +44,11 @@ nav {
     align-items: center;
 }
 
-.nav_logo {
+.nav_logo a {
+    text-decoration: none;
     font-size: 30px;
     font-weight: 700;
+    color: #fff;
 }
 
 .nav_list {

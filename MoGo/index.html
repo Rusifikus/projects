@@ -12,16 +12,16 @@
 </head>
 <body>
 <header>
-    <div class="header">
+    <div class="header" id="header">
         <div class="wrap">
             <nav>
-                <div class="nav_logo">MoGo</div>
+                <div class="nav_logo"><a href="#header">MoGo</a></div>
                 <ol class="nav_list">
-                    <li class="nav_item"><a href="#">about</a></li>
-                    <li class="nav_item"><a href="#">sercive</a></li>
-                    <li class="nav_item"><a href="#">work</a></li>
-                    <li class="nav_item"><a href="#">blog</a></li>
-                    <li class="nav_item"><a href="#">contact</a></li>
+                    <li class="nav_item"><a href="#about">about</a></li>
+                    <li class="nav_item"><a href="#service">service</a></li>
+                    <li class="nav_item"><a href="#work">work</a></li>
+                    <li class="nav_item"><a href="#blog">blog</a></li>
+                    <li class="nav_item"><a href="#contact">contact</a></li>
                     <li><a href="#" ><i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i></a></li>
                     <li><a href="#"><i class="fa fa-search fa-lg" aria-hidden="true"></i></a></li> 
                 </ol>
@@ -38,20 +38,10 @@
                 <h1>Creative Template</h1>
                 <h2>Welcome <br> to MoGo</h2>
                 <a href="#">learn more</a>
-            </div>    
-                <div class="header_btn">
-                    <ol>
-                        <li class="header_btn_item"><span>01</span>intro</li>
-                        <li class="header_btn_item"><span>02</span>work</li>
-                        <li class="header_btn_item"><span>03</span>about</li>
-                        <li class="header_btn_item"><span>04</span>contact</li>
-                    </ol>
-                </div>
-        </div>
     </div>
 </header>
 
-<div class="about">
+<div class="about" id="about">
      <div class="wrap">
          <h1 class="about_title">What we do</h1>
          <h2 class="about_subtitle">Story about us</h2>
@@ -103,7 +93,7 @@
     </div>
 </div>
     
-<div class="service">
+<div class="service" id="service">
     <div class="wrap">
         <div class="service_title">
             <h1>We work with</h1>
@@ -229,7 +219,7 @@
     </div>
 </div>  
                 
-<div class="team">
+<div class="team" id="blog">
     <div class="wrap">
         <div class="team_title title">
             <h1>Who we are</h1>
@@ -299,7 +289,7 @@
     </div>
 </div>
     
-<div class="work">
+<div class="work" id="work">
     <div class="wrap">
         <div class="work_title">
             <h1>What we do</h1>
@@ -404,7 +394,7 @@
     </div>
 </div>  
    
-<div class="clients">
+<div class="clients" id="contact">
     <div class="wrap">
         <div class="clients_title title">
             <h1>Happy Clients</h1>
@@ -491,5 +481,7 @@
             });
            });
 </script>
+
+<script src="./js/main.js"></script>
 </body>
 </html>
