@@ -1,0 +1,48 @@
+
+a.png
+size: 366, 180
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+shine
+  rotate: true
+  xy: 293, 86
+  size: 72, 29
+  orig: 72, 29
+  offset: 0, 0
+  index: -1
+star
+  rotate: false
+  xy: 323, 86
+  size: 43, 48
+  orig: 43, 48
+  offset: 0, 0
+  index: -1
+symbol_a
+  rotate: false
+  xy: 0, 27
+  size: 197, 153
+  orig: 197, 153
+  offset: 0, 0
+  index: -1
+wheel
+  rotate: false
+  xy: 198, 0
+  size: 85, 85
+  orig: 85, 85
+  offset: 0, 0
+  index: -1
+wheel_add
+  rotate: true
+  xy: 284, 18
+  size: 67, 66
+  orig: 67, 66
+  offset: 0, 0
+  index: -1
+wheel_shadow
+  rotate: false
+  xy: 198, 86
+  size: 94, 94
+  orig: 94, 94
+  offset: 0, 0
+  index: -1
